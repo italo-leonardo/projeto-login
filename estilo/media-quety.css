@@ -27,6 +27,10 @@
         float: right;
         width: 70%;
     }
+
+    #formulario > p {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -41,14 +45,18 @@
     }
 
     #img {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
         background-position: center center;
     }
 
     #formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    #formulario > p {
+        font-size: 1.2em;
     }
 }
